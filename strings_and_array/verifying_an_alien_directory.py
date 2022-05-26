@@ -37,8 +37,3 @@ class Solution:
             result.append(self._is_sorted(words[i], words[i+1], order_dict))
 
         return all(result)
-        
-print(Solution().isAlienSorted(words = ["apple","app"], order = "ngxlkthsjuoqcpavbfdermiywz")) # false
-print(Solution().isAlienSorted(words = ["kuvp","q"], order = "ngxlkthsjuoqcpavbfdermiywz")) # true
-print(Solution().isAlienSorted(words = ["word","world","row"], order = "ngxlkthsjuoqcpavbfdermiywz")) # false
-print(Solution().isAlienSorted(words = ["hello","leetcode"], order = "hlabcdefgijkmnopqrstuvwxyz")) # true
